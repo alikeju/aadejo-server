@@ -63,8 +63,8 @@ func getTableInfo(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	os.Setenv("AWS_ACCESS_KEY_ID", "AKIAIDTVXKLCTNRUVETA")
-	os.Setenv("AWS_SECRET_KEY", "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")
+	os.Setenv("AWS_ACCESS_KEY_ID", "AKIA34XNLPJYLZGHNQGI")
+	os.Setenv("AWS_SECRET_KEY", "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")
 
 	//Init Router
 	r := mux.NewRouter()
