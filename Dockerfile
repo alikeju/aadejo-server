@@ -24,8 +24,8 @@ WORKDIR /root/
 # Copy files from previous build container
 COPY --from=build /go/src/CityBikeApi/db-table/cb-api-table ./
 
-ENV AWS_ACCESS_KEY_ID=AKIA34XNLPJYLZGHNQGI
-ENV AWS_SECRET_ACCESS_KEY=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
+ENV AWS_ACCESS_KEY_ID=AKIA34XNLPJYEDWNSS5V
+ENV AWS_SECRET_ACCESS_KEY=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
 # Add environment variables
 # ENV ...
 
